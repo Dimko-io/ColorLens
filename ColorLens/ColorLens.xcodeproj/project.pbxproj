@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92DFCC7B26A20A57006D4307 /* ColorLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFCC7A26A20A57006D4307 /* ColorLensApp.swift */; };
+		92DFCC7D26A20A57006D4307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFCC7C26A20A57006D4307 /* ContentView.swift */; };
+		92DFCC7F26A20A58006D4307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DFCC7E26A20A58006D4307 /* Assets.xcassets */; };
+		92DFCC8226A20A58006D4307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DFCC8126A20A58006D4307 /* Preview Assets.xcassets */; };
+		92DFCC8426A20A58006D4307 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFCC8326A20A58006D4307 /* Persistence.swift */; };
+		92DFCC8726A20A58006D4307 /* ColorLens.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92DFCC8526A20A58006D4307 /* ColorLens.xcdatamodeld */; };
+		92DFCC9126A20A58006D4307 /* ColorLensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFCC9026A20A58006D4307 /* ColorLensTests.swift */; };
+		92DFCC9B26A20A58006D4307 /* ColorLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFCC9A26A20A58006D4307 /* ColorLensUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DFCC8D26A20A58006D4307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DFCC6F26A20A57006D4307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DFCC7626A20A57006D4307;
+			remoteInfo = ColorLens;
+		};
+		92DFCC9726A20A58006D4307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DFCC6F26A20A57006D4307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DFCC7626A20A57006D4307;
+			remoteInfo = ColorLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92DFCC7726A20A57006D4307 /* ColorLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DFCC7A26A20A57006D4307 /* ColorLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLensApp.swift; sourceTree = "<group>"; };
+		92DFCC7C26A20A57006D4307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92DFCC7E26A20A58006D4307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DFCC8126A20A58006D4307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92DFCC8326A20A58006D4307 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		92DFCC8626A20A58006D4307 /* ColorLens.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorLens.xcdatamodel; sourceTree = "<group>"; };
+		92DFCC8C26A20A58006D4307 /* ColorLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DFCC9026A20A58006D4307 /* ColorLensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLensTests.swift; sourceTree = "<group>"; };
+		92DFCC9626A20A58006D4307 /* ColorLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DFCC9A26A20A58006D4307 /* ColorLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLensUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DFCC7426A20A57006D4307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFCC8926A20A58006D4307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFCC9326A20A58006D4307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DFCC6E26A20A57006D4307 = {
+			isa = PBXGroup;
+			children = (
+				92DFCC7926A20A57006D4307 /* ColorLens */,
+				92DFCC8F26A20A58006D4307 /* ColorLensTests */,
+				92DFCC9926A20A58006D4307 /* ColorLensUITests */,
+				92DFCC7826A20A57006D4307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DFCC7826A20A57006D4307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DFCC7726A20A57006D4307 /* ColorLens.app */,
+				92DFCC8C26A20A58006D4307 /* ColorLensTests.xctest */,
+				92DFCC9626A20A58006D4307 /* ColorLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DFCC7926A20A57006D4307 /* ColorLens */ = {
+			isa = PBXGroup;
+			children = (
+				92DFCC7A26A20A57006D4307 /* ColorLensApp.swift */,
+				92DFCC7C26A20A57006D4307 /* ContentView.swift */,
+				92DFCC7E26A20A58006D4307 /* Assets.xcassets */,
+				92DFCC8326A20A58006D4307 /* Persistence.swift */,
+				92DFCC8526A20A58006D4307 /* ColorLens.xcdatamodeld */,
+				92DFCC8026A20A58006D4307 /* Preview Content */,
+			);
+			path = ColorLens;
+			sourceTree = "<group>";
+		};
+		92DFCC8026A20A58006D4307 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92DFCC8126A20A58006D4307 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92DFCC8F26A20A58006D4307 /* ColorLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DFCC9026A20A58006D4307 /* ColorLensTests.swift */,
+			);
+			path = ColorLensTests;
+			sourceTree = "<group>";
+		};
+		92DFCC9926A20A58006D4307 /* ColorLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92DFCC9A26A20A58006D4307 /* ColorLensUITests.swift */,
+			);
+			path = ColorLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DFCC7626A20A57006D4307 /* ColorLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DFCC9E26A20A58006D4307 /* Build configuration list for PBXNativeTarget "ColorLens" */;
+			buildPhases = (
+				92DFCC7326A20A57006D4307 /* Sources */,
+				92DFCC7426A20A57006D4307 /* Frameworks */,
+				92DFCC7526A20A57006D4307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorLens;
+			productName = ColorLens;
+			productReference = 92DFCC7726A20A57006D4307 /* ColorLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DFCC8B26A20A58006D4307 /* ColorLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DFCCA126A20A58006D4307 /* Build configuration list for PBXNativeTarget "ColorLensTests" */;
+			buildPhases = (
+				92DFCC8826A20A58006D4307 /* Sources */,
+				92DFCC8926A20A58006D4307 /* Frameworks */,
+				92DFCC8A26A20A58006D4307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DFCC8E26A20A58006D4307 /* PBXTargetDependency */,
+			);
+			name = ColorLensTests;
+			productName = ColorLensTests;
+			productReference = 92DFCC8C26A20A58006D4307 /* ColorLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92DFCC9526A20A58006D4307 /* ColorLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DFCCA426A20A58006D4307 /* Build configuration list for PBXNativeTarget "ColorLensUITests" */;
+			buildPhases = (
+				92DFCC9226A20A58006D4307 /* Sources */,
+				92DFCC9326A20A58006D4307 /* Frameworks */,
+				92DFCC9426A20A58006D4307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DFCC9826A20A58006D4307 /* PBXTargetDependency */,
+			);
+			name = ColorLensUITests;
+			productName = ColorLensUITests;
+			productReference = 92DFCC9626A20A58006D4307 /* ColorLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DFCC6F26A20A57006D4307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					92DFCC7626A20A57006D4307 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					92DFCC8B26A20A58006D4307 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92DFCC7626A20A57006D4307;
+					};
+					92DFCC9526A20A58006D4307 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92DFCC7626A20A57006D4307;
+					};
+				};
+			};
+			buildConfigurationList = 92DFCC7226A20A57006D4307 /* Build configuration list for PBXProject "ColorLens" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DFCC6E26A20A57006D4307;
+			productRefGroup = 92DFCC7826A20A57006D4307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DFCC7626A20A57006D4307 /* ColorLens */,
+				92DFCC8B26A20A58006D4307 /* ColorLensTests */,
+				92DFCC9526A20A58006D4307 /* ColorLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DFCC7526A20A57006D4307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFCC8226A20A58006D4307 /* Preview Assets.xcassets in Resources */,
+				92DFCC7F26A20A58006D4307 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFCC8A26A20A58006D4307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFCC9426A20A58006D4307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DFCC7326A20A57006D4307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFCC8426A20A58006D4307 /* Persistence.swift in Sources */,
+				92DFCC7D26A20A57006D4307 /* ContentView.swift in Sources */,
+				92DFCC7B26A20A57006D4307 /* ColorLensApp.swift in Sources */,
+				92DFCC8726A20A58006D4307 /* ColorLens.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFCC8826A20A58006D4307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFCC9126A20A58006D4307 /* ColorLensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DFCC9226A20A58006D4307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFCC9B26A20A58006D4307 /* ColorLensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DFCC8E26A20A58006D4307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DFCC7626A20A57006D4307 /* ColorLens */;
+			targetProxy = 92DFCC8D26A20A58006D4307 /* PBXContainerItemProxy */;
+		};
+		92DFCC9826A20A58006D4307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DFCC7626A20A57006D4307 /* ColorLens */;
+			targetProxy = 92DFCC9726A20A58006D4307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92DFCC9C26A20A58006D4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DFCC9D26A20A58006D4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DFCC9F26A20A58006D4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 22T46KCCHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimko.ColorLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DFCCA026A20A58006D4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorLens/Preview Content\"";
+				DEVELOPMENT_TEAM = 22T46KCCHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimko.ColorLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92DFCCA226A20A58006D4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimko.ColorLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorLens.app/ColorLens";
+			};
+			name = Debug;
+		};
+		92DFCCA326A20A58006D4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimko.ColorLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorLens.app/ColorLens";
+			};
+			name = Release;
+		};
+		92DFCCA526A20A58006D4307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimko.ColorLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorLens;
+			};
+			name = Debug;
+		};
+		92DFCCA626A20A58006D4307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimko.ColorLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DFCC7226A20A57006D4307 /* Build configuration list for PBXProject "ColorLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFCC9C26A20A58006D4307 /* Debug */,
+				92DFCC9D26A20A58006D4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DFCC9E26A20A58006D4307 /* Build configuration list for PBXNativeTarget "ColorLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFCC9F26A20A58006D4307 /* Debug */,
+				92DFCCA026A20A58006D4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DFCCA126A20A58006D4307 /* Build configuration list for PBXNativeTarget "ColorLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFCCA226A20A58006D4307 /* Debug */,
+				92DFCCA326A20A58006D4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DFCCA426A20A58006D4307 /* Build configuration list for PBXNativeTarget "ColorLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DFCCA526A20A58006D4307 /* Debug */,
+				92DFCCA626A20A58006D4307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92DFCC8526A20A58006D4307 /* ColorLens.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92DFCC8626A20A58006D4307 /* ColorLens.xcdatamodel */,
+			);
+			currentVersion = 92DFCC8626A20A58006D4307 /* ColorLens.xcdatamodel */;
+			path = ColorLens.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92DFCC6F26A20A57006D4307 /* Project object */;
+}
