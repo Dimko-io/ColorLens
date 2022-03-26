@@ -1,0 +1,19 @@
+{
+  "name": "colorlens-dataset",
+  "version": "1.0.0",
+  "description": "color blindness helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimko-io/ColorLens.git"
+  },
+  "author": "dimpurr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dimko-io/ColorLens/issues"
+  },
+  "homepage": "https://github.com/Dimko-io/ColorLens#readme"
+}
